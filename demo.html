@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+		<style>
+			.icon-size (
+			 font-size: 2em;
+	   </style>
+   
+    <title>My Personal Blog</title>
+    <style>
+      /* Embedded CSS for styling */
+
+      body {
+        font-family: Trebuchet MS, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        color: #333;
+        font-size: 16px;
+        line-height: 1.6;
+      }
+		
+		body {
+		  background-image: url('background.jpg');
+		  background-repeat: repeat;
+		  background-size: cover;
+		  background-attachment: fixed;
+		  filter: alpha(opacity=100); 
+          opacity: 1.0;
+		}
+
+		body::before {
+				content: "";
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				z-index: -1;
+				background-image: url('background.jpg');
+				opacity: 0.3;
+			 }
+			 
+			 	.post {
+				margin: 20px 0;
+				padding: 10px;
+				background-color: #fff;
+				box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+				}
+
+      header {
+        background-color: #728e79;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        font-size: 50px;
+		  font-family: Didot, serif
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      h1, h2, h3 {
+        margin-top: 0;
+        font-family: Trebuchet MS, sans-serif
+		  font-size: 35px;
+      }
+
+      a {
+        color: #333;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .post {
+        margin-bottom: 40px;
+      }
+
+      .post-date {
+        font-size: 14px;
+        color: #000;
+      }
+
+      .carousel {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+        margin-bottom: 40px;
+      }
+
+      .carousel-cell {
+        flex: 0 0 auto;
+        width: 100%;
+        margin-right: 20px;
+        scroll-snap-align: start;
+      }
+
+      .carousel img {
+        max-width: 100%;
+        height: auto;
+      }
+		
+		
+    </style>
+  </head>
+  <body>
+    <header>
+      My Personal Blog
+    </header>
+    <div class="container">
+      <div class="carousel">
+        <div class="carousel-cell">
+          <a href="#"><img src="image1.jpg" alt="Blog Post 1"></a>
+        </div>
+        <div class="carousel-cell">
+          <a href="#"><img src="image2.jpg" alt="Blog Post 2"></a>
+        </div>
+        <div class="carousel-cell">
+          <a href="#"><img src="image3.jpeg" alt="Blog Post 3"></a>
+        </div>
+      </div>
+      <h2>Recent Posts</h2>
+      <div class="post">
+        <h3><a href="#">The Liar Paradox</a></h3>
+        <div class="post-date">March 17, 2023</div>
+		 
+
+        <p>Hi everyone! This is my first post and today we're going to talk about a math puzzle that I've been reading about lately. While I know math isn't the most exciting for some of us, puzzles like this itch just the right part of my brain.<p>
+
+<p>
+First up, let's talk about the liar paradox. This one has been puzzling philosophers and mathematicians for centuries. Basically, it's a sentence that claims to be false, but if it's false, then it must be true. And if it's true, then it must be false. Are you confused yet? Yeah, me too.
+<p>
+<p>
+One classic example of the liar paradox goes like this: "This statement is false." Think about it. If the statement is true, then it must be false, but if it's false, then it must be true. It's like a mind-bending riddle that doesn't have a clear answer.
+<p>
+<p>
+So what's the deal with the liar paradox? Why is it so tricky? Well, it all comes down to self-reference. When we talk about something, we usually refer to things outside of ourselves. For example, I might say "That dog is cute." I'm referring to a specific dog - something that is not a part of me. But when we use self-reference, things get complicated. The liar paradox is a statement that refers to itself, which creates a kind of loop that leads to contradictory results.
+<p>
+<p>
+But don't worry, you don't have to be a philosophy major to appreciate the liar paradox. It's a fascinating example of how language and logic can get tangled up in unexpected ways. And who knows, maybe one day you'll come up with a solution to the paradox that stumps even the greatest minds in the field.
+<p>
+<p>
+So, let's start with a quick recap. The liar paradox is a statement that claims to be false, but if it's false, then it must be true, and if it's true, then it must be false. It's like a snake eating its own tail, a never-ending loop that seems to have no solution.
+<p>
+<p>
+But is there really no solution? Let's explore some of the math behind the liar paradox and see if we can find a way out of this puzzle.
+<p>
+<p>
+One way to approach the liar paradox is through formal logic. We can assign a value to the statement and see if it leads to a contradiction. For example, let's take the classic liar paradox statement: "This statement is false." If we assign the statement a truth value of true, then the statement must be false, which creates a contradiction. But if we assign it a truth value of false, then the statement must be true, which also creates a contradiction.
+<p>
+<p>
+So, what's the solution? One way out of the liar paradox is through what's called paraconsistent logic. This is a type of logic that allows for contradictions to exist without leading to a complete breakdown in the system. Basically, it allows for statements to be both true and false at the same time.
+<p>
+<p>
+Another way out of the liar paradox is through what's called dialetheism. This is a philosophical position that allows for true contradictions to exist. In other words, it accepts that some statements can be both true and false at the same time, without leading to a complete breakdown in the system.
+<p>
+<p>
+But why do we care about the liar paradox and its solutions? Well, it's a great example of how math can help us think critically about language and logic. It's a reminder that our assumptions and definitions can lead us down unexpected paths, and that we need to be willing to question those assumptions in order to make progress.
+<p>
+<p>
+Plus, it's just a really cool puzzle to think about. Who doesn't love a good brain teaser?
+<p>
+<p>
+In conclusion, the liar paradox is a fascinating example of the intersection between language, logic, and math. While there may not be a clear solution to the paradox, exploring the different ways in which we can approach it can help us gain a deeper understanding of the nature of truth and the limits of logic. So, next time you come across a seemingly unsolvable puzzle, don't be afraid to dive in and explore the possibilities. Who knows, you might just stumble upon a solution that nobody else has thought of before!
+</p>
+
+</div>
+
+      <div class="post">
+        <h3><a href="#">The Towers of Hanoi</a></h3>
+        <div class="post-date">March 17, 2023</div>
+		  
+<p>
+Now, let's switch gears and talk about something a little more hands-on: the Towers of Hanoi. This is a classic math puzzle that involves moving a stack of discs from one pole to another, using a third pole as a buffer. Sounds easy, right? Well, it's not as simple as it seems.
+<p>
+<p>
+The rules of the Towers of Hanoi are pretty straightforward. You start with a stack of discs of different sizes, arranged in order from largest to smallest, on one pole. Your goal is to move the entire stack to another pole, but you can only move one disc at a time and you can't place a larger disc on top of a smaller disc. The catch? You have to use a third pole as a buffer.
+<p>
+<p>
+At first glance, this might seem like a tedious and boring task, but it's actually a really cool example of mathematical thinking. You have to plan ahead and figure out the most efficient way to move the discs, which requires a lot of problem-solving skills. Plus, there are some really interesting mathematical principles at play.
+<p>
+<p>
+For example, did you know that the minimum number of moves required to complete the Towers of Hanoi puzzle is always 2^n - 1, where n is the number of discs. That's pretty wild, right? It's a great example of how math can help us solve puzzles and problems in the real world.
+<p>
+<p>
+But why is that? Well, it all comes down to binary numbers. I know, I know, binary numbers might not sound like the most exciting thing in the world, but bear with me here.
+<p>
+<p>
+
+Binary numbers are a system of numbers that only use two digits, 0 and 1. In the Towers of Hanoi puzzle, we can represent each move as a binary number, where 0 represents moving a disc to a pole that's not involved in the current move, and 1 represents moving a disc to a pole that is involved in the current move.
+<p>
+<p>
+
+For example, let's say we have three discs. The first move would be to move the smallest disc to the third pole. We can represent that move as the binary number 001. The second move would be to move the middle disc to the second pole. We can represent that move as the binary number 010. And so on.
+<p>
+<p>
+
+If we keep track of all the moves we make in this way, we end up with a binary number that has n digits, where n is the number of discs. And if we add up all the binary numbers we've used to make all the moves, we end up with a binary number that has 2^n - 1 digits.
+<p>
+<p>
+
+But what does that have to do with the minimum number of moves required to complete the puzzle? Well, it turns out that the minimum number of moves required to complete the puzzle is always equal to the number of digits in the binary number we get when we add up all the binary numbers used in the moves.
+<p>
+<p>
+
+So, for three discs, the binary number we get when we add up all the moves is 111 (that's 1 + 2 + 4 in decimal form). And the number of digits in that binary number is 3, which is exactly the minimum number of moves required to complete the puzzle.
+<p>
+<p>
+
+Pretty cool, right? But what about larger numbers of discs? Is there a way to predict the minimum number of moves required for those? The answer is yes, and it involves a little bit of algebra.
+<p>
+<p>
+
+The formula for the minimum number of moves required for n discs is 2^n - 1. But why does that formula work? Well, let's break it down.
+<p>
+<p>
+
+When we have one disc, it takes 1 move to complete the puzzle (obviously). When we have two discs, it takes 3 moves (you move the smallest disc to the third pole, then you move the larger disc to the second pole, then you move the smallest disc to the second pole, then you move the larger disc to the third pole, then you move the smallest disc to the third pole).
+<p>
+<p>
+
+When we have three discs, it takes 7 moves 
+<p>
+<p>
+
+Move the smallest disc from the first pole to the second pole. (This is one move.)
+<p>
+<p>
+
+Move the middle disc from the first pole to the third pole. (This is another move.)
+<p>
+<p>
+Move the smallest disc from the second pole to the third pole. (This is another move.)
+<p>
+<p>
+Move the largest disc from the first pole to the second pole. (This is another move.)
+<p>
+<p>
+Move the smallest disc from the third pole to the first pole. (This is another move.)
+<p>
+<p>
+Move the middle disc from the third pole to the second pole. (This is another move.)
+<p>
+<p>
+Move the smallest disc from the first pole to the second pole. (This is the final move.) 
+<p>
+<p>
+
+(animation)
+<p>
+<p>
+
+For any of you still here.. well done! Now I also like to occasionally dabble in mythology and the story behind this mathematic genius is just as interesting. So, why is it called the Towers of Hanoi? Well, according to legend, there was once a temple in the city of Hanoi that had three diamond pillars. On one of the pillars was a stack of 64 golden discs, each one smaller than the one below it. The priests of the temple were tasked with moving the entire stack from one pillar to another, but they could only move one disc at a time and they couldn't place a larger disc on top of a smaller disc. It was said that if they completed the task, the world would end. Yikes!
+</p>
+
+</div>
+
+<style>
+
+  footer {
+    background-color: #728e79;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .contact-header {
+    margin-bottom: 10px;
+  }
+
+  .contact-icons a {
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .contact-icons a:hover {
+    color: #008080;
+  }
+
+  .fa {
+    display: inline-block;
+    margin-right: 5px;
+  }  
+  
+</style>
+
+</div>
+
+    <div class="footer-basic">
+        <footer>
+            <div class="social">
+                <a href="https://www.instagram.com/sushiyushi_/"><i class="icon ion-social-instagram"></i></a>
+                <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                <a href="#"><i class="icon ion-social-twitter"></i></a>
+                <a href="#"><i class="icon ion-social-facebook"></i></a>
+					  <dl class="contact-list">
+                <dt>email:</dt>
+                <dd><a href="mailto:#">thakur.ayushi.28@gmail.com</a></dd>
+              </dl>
+				           <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://www.linkedin.com/in/ayushi-thakur-188652244/">LinkedIn</a></li>
+							  </ul>
+            </div>
+
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
